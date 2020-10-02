@@ -3,22 +3,22 @@
     {
       "name": "auth0.apiAudience",
       "type": "java.lang.String",
-      "description": "Description for auth0.apiAudience."
+      "description": "Audience of the API."
     },
     {
       "name": "auth0.issuer",
       "type": "java.lang.String",
-      "description": "Description for auth0.issuer."
+      "description": "The token provider."
     },
     {
       "name": "auth0.clientId",
       "type": "java.lang.String",
-      "description": "Description for auth0.clientId."
+      "description": "The client id of this application."
     },
     {
       "name": "auth0.clientSecret",
       "type": "java.lang.String",
-      "description": "Description for auth0.clientSecret."
+      "description": "The client secret of this application."
     }
   ]
 }
