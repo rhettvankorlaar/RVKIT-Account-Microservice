@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - openjdk15
+before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+script:
+  - ./mvnw clean install
+  - ./mvnw deploy jib:build -P deploy-docker
