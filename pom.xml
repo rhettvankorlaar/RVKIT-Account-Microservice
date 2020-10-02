@@ -114,6 +114,9 @@
                         <artifactId>jib-maven-plugin</artifactId>
                         <version>2.5.2</version>
                         <configuration>
+                            <from>
+                                <image>openjdk:15</image>
+                            </from>
                             <to>
                                 <image>rhettvank/accountservice</image>
                                 <tags>
