@@ -121,7 +121,7 @@
                         <configuration>
                             <container>
                                 <ports>
-                                    <port>443</port>
+                                    <port>80</port>
                                 </ports>
                             </container>
                             <from>
